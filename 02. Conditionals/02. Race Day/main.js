@@ -4,11 +4,10 @@ const earlyRegistration = true;
 const age = 21;
 
 if (earlyRegistration && age > 18) {
-    return raceNumber += 1000;
+    raceNumber += 1000;
 }
 
-// First if statement does not run...
-// All other statements run fine when the conditions are met.
+
 if (earlyRegistration && age > 18) {
     console.log(`The race will start at 9:30am and your race number is: ${raceNumber}.`);
 } else if (!earlyRegistration && age > 18) {
