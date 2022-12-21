@@ -60,7 +60,7 @@ const determineWinner = (userChoice, computerChoice) => {
 // I was unsure how to structure this function and so I had to get help.
 
 const playGame = () => {
-    const userChoice = getUserChoice('bomb');
+    const userChoice = getUserChoice('rock');
     const computerChoice = getComputerChoice();
     console.log('You threw: ' + userChoice)
     console.log('The computer threw: ' + computerChoice);
